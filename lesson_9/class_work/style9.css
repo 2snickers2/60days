@@ -8,9 +8,10 @@ body {
     height: 100vh;
     width: 100%;   
     background-color: grey;
-    background-image: url(qtopnaTehHg3.jpg);
-
-
+    background-image: url(qtopnaTehHg3.jpg)  ;
+    background-size: cover;
+    width: 100%;
+    min-height: 100%;
    
 }
 
