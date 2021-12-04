@@ -84,10 +84,7 @@ a{
     position: relative;
     top: 5px;
 }
-.two{
-    position: relative;
-    top: 25px;
-}
+
 .link:hover{
     box-shadow: rgb(4, 58, 11) 0 0 10px;
 }
@@ -98,5 +95,5 @@ body{
     width: 100%;
     min-height: 100%;
 }
-@import (max-width: 786px);
+
 
