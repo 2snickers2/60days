@@ -1,53 +1,61 @@
-.content{
-    width: 100%;
-}
-.big_block{
-    width: 50%;
-    height: 400px;
+.first{
+    height: 100%;
+    width: 1000px;
     margin: 0 auto;
     position: relative;
-    top: 50px;
     display: flex;
     flex-wrap: wrap;
-    border-radius: 30px;
-    box-shadow: black 0 0 5px;
+   padding: 60px 10px;
 
 }
-.part_first{
-    width: 200PX;
-    height: 60px;
-    box-shadow: black 0 0 10px;
-    margin: 0 30px;
-    padding: 20px;
-  
+.row{
+    padding: 10px;  
 }
-.block_text{
-    width: 100%;
-    margin: 0 30px 0  ;
-    font-size: 15px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+.heading_text{
+    height: 100%;
+    margin: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.content_block{
-    width: 100%;
-    height: 50px;
-}
-.text{
-   
-    text-align: left;
-    font-size: 10px;
-    position: relative;
-    top: -10px;
-}
-.link{
-    width: 50%;
-    height: 20px;
-    border: rgb(88, 88, 88) 1px solid;
+.second{
+    height: 100%;
+    width: 1000px;
     margin: 0 auto;
-    align-items: center;
-    text-align: center;
     position: relative;
-    top: -10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 10px;
+}
+.card{
+    height: 170px;
+    width: 240px;
+    background: linear-gradient(to top,#fcb0dacc 20%, #1e21dba4 60%, #10abee9c 80%);
+    border-radius: 20px;
+    box-shadow: blue 0 0 20px;
+}
+h1{
+    font-size: 25px;
+    color: rgb(0, 15, 226);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.heading_text:hover{
+   
+
+}
+.heading_text{
+    height: 50px;
+    width: 770px;
+    
+}
+.card-title{
+    color: rgb(209, 209, 209);
 }
 a{
     text-decoration: none;
+    color: black;
+}
+body{
+    background: url(sea.jpg) no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    min-height: 100%;
 }

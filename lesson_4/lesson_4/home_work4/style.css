@@ -1,3 +1,6 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 .main{ 
  width: 1200px;
 height: 600px;
@@ -51,7 +54,7 @@ margin: 5%;
 img{
     width: 220px;
     height: 150px;
-    border: nones;
+    border: none;
 }
 .center-pic{
     display: block;
@@ -104,4 +107,8 @@ h1{
 }
 .h11{
     text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
