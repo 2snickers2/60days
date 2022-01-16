@@ -27,3 +27,7 @@ td{
 #unique_sell:hover{
    color: brown;
 }
+a{
+    text-decoration: none ;
+    color: white;
+}
