@@ -10,7 +10,7 @@
     flex-wrap: wrap;
     border-radius: 30px;
     box-shadow: black 0 0 5px;
-    background: rgba(177, 177, 177, 0.336);
+    
 }
 * {
     padding: 0;
@@ -72,14 +72,14 @@ a{
 }
 .two_block{
     width: 60%;
-    background: rgba(177, 177, 177, 0.336);
+    
     margin: 0 auto;
     position: relative;
     top: 70px;
     display: flex;
     flex-wrap: wrap;
     border-radius: 30px;
-    box-shadow: rgb(44, 109, 19) 0 0 5px;
+    box-shadow: rgba(0, 0, 0, 0.568) 0 0 5px;
     
     
 }
@@ -93,7 +93,7 @@ a{
 }
 
 body{
-     background: url(matrix.jpg) no-repeat center center fixed;
+     background: url(flows.jpg) no-repeat center center fixed;
     background-size: cover;
     width: 100%;
     min-height: 100%;
