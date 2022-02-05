@@ -1,5 +1,5 @@
 
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&family=Noto+Sans&family=Open+Sans:wght@400;600&family=Roboto:wght@400;700&display=swap');
 .one_block{
     width: 60%;
     height: 100%;
@@ -10,12 +10,13 @@
     flex-wrap: wrap;
     border-radius: 30px;
     box-shadow: black 0 0 5px;
-   
+    background: rgba(177, 177, 177, 0.336);
 }
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif; 
 }
 .part_first{
     width: 200px;
@@ -26,7 +27,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: rgba(65, 68, 41, 0.705);
+    background-color: rgba(40, 43, 21, 0.836);
     border-radius: 20px;
     margin-top: 30px;
     
@@ -35,17 +36,18 @@
     width: 100%;
     margin: 0 30px 0  ;
     font-size: 15px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+   
 }
 .content_block{
     width: 100%;
     
 }
 .text{
-    color: rgba(231, 224, 209, 0.932);
+    color: rgba(255, 255, 255, 0.671);
     text-align: left;
     font-size: 10px;
     position: relative;
+    font-weight: 300;
    
 }
 .link{
@@ -65,18 +67,19 @@ a{
 .mini_block{
     position: relative;
     top: 15px;
+    
   
 }
 .two_block{
     width: 60%;
-    
+    background: rgba(177, 177, 177, 0.336);
     margin: 0 auto;
     position: relative;
     top: 70px;
     display: flex;
     flex-wrap: wrap;
     border-radius: 30px;
-    box-shadow: black 0 0 5px;
+    box-shadow: rgb(44, 109, 19) 0 0 5px;
     
     
 }
@@ -90,7 +93,7 @@ a{
 }
 
 body{
-     background: url(flows.jpg) no-repeat center center fixed;
+     background: url(matrix.jpg) no-repeat center center fixed;
     background-size: cover;
     width: 100%;
     min-height: 100%;
