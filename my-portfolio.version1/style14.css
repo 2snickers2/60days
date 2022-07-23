@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&family=Noto+Sans&family=Open+Sans:wght@400;600&family=Roboto:wght@400;700&display=swap');
+.one_block{
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 30px;
+    box-shadow: black 0 0 5px;
+    
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif; 
+}
+.part_first{
+    width: 200px;
+   
+    box-shadow: black 0 0 10px;
+    margin: 0 30px;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(40, 43, 21, 0.836);
+    border-radius: 20px;
+    margin-top: 30px;
+    
+}
+.block_text{
+    width: 100%;
+    margin: 0 30px 0  ;
+    font-size: 15px;
+   
+}
+.content_block{
+    width: 100%;
+    
+}
+.text{
+    color: rgba(255, 255, 255, 0.671);
+    text-align: left;
+    font-size: 10px;
+    position: relative;
+    font-weight: 300;
+   
+}
+.link{
+    width: 50%;
+    height: 20px;
+    border: rgb(88, 88, 88) 1px solid;
+    margin: 0 auto;
+    
+   
+    align-items: center;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(187, 187, 187);
+}
+.mini_block{
+    position: relative;
+    top: 15px;
+    
+  
+}
+.two_block{
+    width: 60%;
+    
+    margin: 0 auto;
+    position: relative;
+    top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.568) 0 0 5px;
+    
+    
+}
+.one{
+    position: relative;
+    top: 5px;
+}
+
+.link:hover{
+    box-shadow: rgb(4, 58, 11) 0 0 10px;
+}
+
+body{
+     background: url(flows.jpg) no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    min-height: 100%;
+}
