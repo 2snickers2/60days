@@ -21,6 +21,22 @@ a{
     padding: 0 15px;
     margin: 0 auto;
 }
+.flags{
+    width: 60px;
+    height: 40px;
+    position: fixed;
+    left: 1445px;
+    
+}
+.blue{
+    background-color: blue;
+    height: 50%;
+}
+.yellow{
+    background-color: yellow;
+    height: 50%;
+}
+
 .first_screen{
     position: relative;
     width: 850px;
